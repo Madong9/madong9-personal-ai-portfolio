@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Madong9 的个人 AI 项目展示页，面向 HR 的作品集网站，集中介绍 5 个公开项目与技术亮点。"
+    />
+    <meta name="theme-color" content="#0b1020" />
+    <title>Madong9 | Personal AI Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="backdrop backdrop-one"></div>
+    <div class="backdrop backdrop-two"></div>
+    <div class="noise"></div>
+
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">M9</span>
+        <div>
+          <p>Madong9</p>
+          <span>AI Projects Portfolio</span>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#projects">项目</a>
+        <a href="#strengths">能力</a>
+        <a href="#timeline">成长</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">面向 HR 的个人作品集</p>
+          <h1>把 AI、产品和工程能力，压缩成一页能看懂的展示页。</h1>
+          <p class="lead">
+            这个页面集中展示我在自然语言 Agent、校园社交推荐、桌面工具、招聘信息聚合和量化交易方向的公开项目，
+            方便快速了解我的项目经验、技术栈和落地能力。
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">查看项目</a>
+            <a class="button button-secondary" href="https://github.com/Madong9" target="_blank" rel="noreferrer">GitHub 主页</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-card">
+              <strong>5</strong>
+              <span>个公开项目</span>
+            </div>
+            <div class="stat-card">
+              <strong>3</strong>
+              <span>类核心能力</span>
+            </div>
+            <div class="stat-card">
+              <strong>1</strong>
+              <span>页快速理解</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-panel reveal delay-1">
+          <div class="panel-header">
+            <span class="chip">Selected Work</span>
+            <span class="status-dot">public</span>
+          </div>
+          <div class="mini-grid">
+            <article>
+              <span>Agent</span>
+              <strong>Parameter Adjustment Agent</strong>
+              <p>自然语言驱动的训练编排与参数调整。</p>
+            </article>
+            <article>
+              <span>Social AI</span>
+              <strong>Friend Agent</strong>
+              <p>校园搭子匹配、聊天与推荐系统。</p>
+            </article>
+            <article>
+              <span>Productivity</span>
+              <strong>DailyPlanner</strong>
+              <p>Ubuntu 桌面待办与日常复盘工具。</p>
+            </article>
+            <article>
+              <span>Trading</span>
+              <strong>Bottom Hunter</strong>
+              <p>量化/策略验证与桌面交易辅助工具。</p>
+            </article>
+          </div>
+        </aside>
+      </section>
+
+      <section id="projects" class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>公开项目一览</h2>
+          <p>
+            每个项目都强调真实场景、可运行交付和完整文档，适合 HR 快速扫过，也方便技术面深入追问。
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-tag">AI Agent</span>
+              <a href="https://github.com/Madong9/parameter_adjustment_agent" target="_blank" rel="noreferrer">View Repo</a>
+            </div>
+            <h3>Parameter Adjustment Agent</h3>
+            <p>
+              面向 Unitree 机器人的自然语言强化学习参数调整与训练编排工具，包含任务规划、奖励校验、实验管理和可解释的训练闭环。
+            </p>
+            <ul>
+              <li>自然语言任务转结构化训练目标</li>
+              <li>训练流程可恢复、可审计</li>
+              <li>前后端一体的上位机体验</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-tag">Social AI</span>
+              <a href="https://github.com/Madong9/friend_agent" target="_blank" rel="noreferrer">View Repo</a>
+            </div>
+            <h3>Friend Agent</h3>
+            <p>
+              一个可本地运行、可解释、可测试的校园交友 Agent MVP，支持找搭子、查活动、更新画像、解释推荐与动态多轮会话。
+            </p>
+            <ul>
+              <li>检索、过滤、排序分层清晰</li>
+              <li>支持微信小程序与 Web 入口</li>
+              <li>强调权限、安全和隐私边界</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-tag">Web</span>
+              <a href="https://github.com/Madong9/recruitment-pages" target="_blank" rel="noreferrer">View Repo</a>
+            </div>
+            <h3>Recruitment Pages</h3>
+            <p>
+              清北华五校招汇总页面，适合做信息聚合、入口导航和内容展示，风格上更偏向清晰、直接、可快速浏览。
+            </p>
+            <ul>
+              <li>纯 HTML 页面，轻量易部署</li>
+              <li>适合内容聚合与静态展示</li>
+              <li>可作为招聘信息站点模板</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-tag">Desktop</span>
+              <a href="https://github.com/Madong9/DailyPlanner" target="_blank" rel="noreferrer">View Repo</a>
+            </div>
+            <h3>DailyPlanner</h3>
+            <p>
+              Ubuntu 桌面每日任务复盘工具，围绕待办、提醒、锁屏检测和本地数据持久化做了完整的桌面交付体验。
+            </p>
+            <ul>
+              <li>Electron + React + TypeScript</li>
+              <li>本地优先，适合稳定桌面场景</li>
+              <li>重视主题、通知和系统集成</li>
+            </ul>
+          </article>
+
+          <article class="project-card project-card-wide">
+            <div class="project-top">
+              <span class="project-tag">Quant</span>
+              <a href="https://github.com/Madong9/bottom-hunter" target="_blank" rel="noreferrer">View Repo</a>
+            </div>
+            <h3>Bottom Hunter</h3>
+            <p>
+              量化/策略验证方向的桌面项目，聚焦扫描、回测和产品化集成，适合展示数据分析、策略验证和工具化能力。
+            </p>
+            <div class="project-metrics">
+              <div>
+                <strong>Python</strong>
+                <span>策略与自动化</span>
+              </div>
+              <div>
+                <strong>QML</strong>
+                <span>桌面交互</span>
+              </div>
+              <div>
+                <strong>GLSL</strong>
+                <span>可视化能力</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="strengths" class="section split reveal delay-1">
+        <div class="section-heading">
+          <p class="eyebrow">Strengths</p>
+          <h2>我擅长的方向</h2>
+        </div>
+        <div class="strength-list">
+          <div class="strength-item">
+            <span>01</span>
+            <div>
+              <h3>AI 产品化</h3>
+              <p>不仅做模型接口，更强调 Agent 流程、可解释输出、权限控制和失败兜底。</p>
+            </div>
+          </div>
+          <div class="strength-item">
+            <span>02</span>
+            <div>
+              <h3>全栈交付</h3>
+              <p>从后端、前端、桌面端到静态页面，都能把项目做成可展示、可部署的成品。</p>
+            </div>
+          </div>
+          <div class="strength-item">
+            <span>03</span>
+            <div>
+              <h3>工程严谨性</h3>
+              <p>重视测试、结构化文档、部署流程和 GitHub 发布，适合稳定迭代的团队环境。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="timeline" class="section timeline reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Trajectory</p>
+          <h2>项目路线图</h2>
+        </div>
+        <div class="timeline-grid">
+          <div class="timeline-card">
+            <span>AI / Agent</span>
+            <p>Parameter Adjustment Agent 与 Friend Agent 体现了我在 Agent 设计、任务编排和交互流上的积累。</p>
+          </div>
+          <div class="timeline-card">
+            <span>Productivity / Desktop</span>
+            <p>DailyPlanner 证明我能把桌面体验、系统集成和本地数据管理做成完整产品。</p>
+          </div>
+          <div class="timeline-card">
+            <span>Info / Web</span>
+            <p>Recruitment Pages 展示信息聚合、静态落地和内容表达能力，适合作为快速上线型项目。</p>
+          </div>
+          <div class="timeline-card">
+            <span>Quant / Tooling</span>
+            <p>Bottom Hunter 说明我能在数据、策略、界面和工程集成之间做平衡，形成可运行工具。</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact reveal">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>如果你想快速了解我，就先看这 5 个项目。</h2>
+          <p>
+            这个页面可以直接部署到 GitHub Pages，作为对外展示入口。后续也可以继续补充个人介绍、简历 PDF、联系方式和项目截图。
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-primary" href="https://github.com/Madong9" target="_blank" rel="noreferrer">打开 GitHub</a>
+          <a class="button button-secondary" href="mailto:hello@example.com">替换为你的邮箱</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Made for recruiting review</span>
+      <span>Madong9 · 2026</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
