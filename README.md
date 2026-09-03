@@ -1,24 +1,30 @@
-# Madong9 Personal AI Portfolio
+# Madong9 · AI Portfolio
 
-这是一个面向 HR 的个人 AI 项目展示页，集中介绍 5 个公开项目：
+面向 HR 与技术面试官的个人 AI 产品作品集，集中展示 6 个公开项目：
 
-- Parameter Adjustment Agent
-- Friend Agent
-- Recruitment Pages
-- DailyPlanner
-- Bottom Hunter
+- [Parameter Adjustment Agent](https://github.com/Madong9/parameter_adjustment_agent) — Unitree 机器人自然语言强化学习训练 Agent
+- [Friend Agent](https://github.com/Madong9/friend_agent) — 可解释的校园搭子 AI Agent
+- [DailyPlanner](https://github.com/Madong9/DailyPlanner) — Ubuntu 本地 Todo / 每日复盘桌面工具
+- [Bottom Hunter](https://github.com/Madong9/bottom-hunter) — 跨市场板块超跌反弹扫描与回测系统
+- [Quantization](https://github.com/Madong9/quantization) — 双工程量化交易系统
+- [Recruitment Pages](https://github.com/Madong9/recruitment-pages) — 高校招聘信息交互聚合页
+
+## 页面特点
+
+- HR 友好的价值概览和项目证据
+- 可交互的 Portfolio Copilot 导览
+- 项目分类筛选与响应式布局
+- 原生 HTML / CSS / JavaScript，无构建依赖
+- 支持键盘操作、减少动态效果偏好与基础 SEO
 
 ## 本地预览
 
-直接用浏览器打开 `index.html`，或者在项目目录运行一个静态服务器。
+```bash
+python3 -m http.server 8080
+```
 
-## 部署到 GitHub Pages
+访问 <http://127.0.0.1:8080>。
 
-1. 把这个目录推送到你的 GitHub 仓库。
-2. 在仓库 Settings 里开启 GitHub Pages。
-3. 如果你启用了 Actions 发布，`main` 分支更新后会自动部署。
+## 部署
 
-## 可定制内容
-
-- 把首页的邮箱占位符替换成你的真实联系方式。
-- 如果你愿意，我可以继续帮你补中文个人简介、教育经历和简历下载按钮。
+网站通过 GitHub Pages 从 `main` 分支根目录发布。
