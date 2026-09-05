@@ -2,6 +2,8 @@
 
 面向 HR 与技术面试官的个人 AI 产品作品集，集中展示 6 个公开项目：
 
+**在线访问：** <https://madong9.github.io/madong9-personal-ai-portfolio/>
+
 - [Parameter Adjustment Agent](https://github.com/Madong9/parameter_adjustment_agent) — Unitree 机器人自然语言强化学习训练 Agent
 - [Friend Agent](https://github.com/Madong9/friend_agent) — 可解释的校园搭子 AI Agent
 - [DailyPlanner](https://github.com/Madong9/DailyPlanner) — Ubuntu 本地 Todo / 每日复盘桌面工具
